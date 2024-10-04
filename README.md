@@ -7,15 +7,15 @@ Home: https://github.com/Becksteinlab/zarrtraj
 
 Package license: GPL-3.0-or-later
 
-Summary: This is a kit that provides the ability to read and write trajectory data in the Zarr file format
+Summary: Zarrtraj is a kit that provides the ability to stream & analyze H5MD trajectories from cloud storage.
 
 Development: https://github.com/Becksteinlab/zarrtraj
 
 Documentation: https://zarrtraj.readthedocs.io/en/latest/index.html
 
-This is an MDAKit that provides the ability to read and write H5MD-formatted trajectory data into MDAnalysis using Zarr.
-Zarrtraj can read local H5MD files, H5MD files in S3 buckets, and files served via http or https.
-It can read both H5MD-formatted files stored in hdf5 and H5MD-formatted files stored in Zarr (.zarrmd files).
+Zarrtraj is an MDAnalysis MDAKit that provides the ability to read and write H5MD-formatted trajectory data in MDAnalysis using Zarr.
+Zarrtraj can read trajectories locally and from AWS S3, Google Cloud Buckets, and Azure Blob Storage & DataLakes.
+It can read both H5MD-formatted files stored in hdf5 (.h5md files) and H5MD-formatted files stored in Zarr (.zarrmd files).
 
 
 Current build status
