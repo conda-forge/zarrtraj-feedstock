@@ -1,6 +1,6 @@
 {% set python_min = "3.10.0" %}
 {% set name = "zarrtraj" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/zarrtraj-{{ version }}.tar.gz
-  sha256: 9c4724cca0dc12d384a885b39198e74410be34a618ace79012e46ccfa864d854
+  sha256: 18570e9ccfaa3de86411de166cf4b937e4266cf1bea19901df40ba10c95d9723
 
 build:
   noarch: python
