@@ -23,8 +23,8 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - mdanalysis >=2.7.0
-    - zarr >=2.11.0
+    - mdanalysis >=2.1.0
+    - zarr >=2.11.0,<3.0
     - kerchunk >=0.2.6
     - h5py >=3.11.0
     - s3fs >=2024.3.0
